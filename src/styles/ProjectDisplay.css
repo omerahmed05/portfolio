@@ -1,0 +1,51 @@
+.project {
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: -150px;
+}
+
+.project h1 {
+  margin-top: 20px; 
+  color: #2b371c;
+  font-size: 35px;
+}
+
+.project img {
+  max-width: 100%; 
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project p {
+  font-size: 20px;
+  color: #2b371c;
+  margin-top: 10px; 
+}
+
+.project svg {
+  font-size: 60px;
+  color: #2b371c;
+}
+
+.description-container {
+  text-align: center;
+}
+
+.description {
+  text-align: left;
+  padding: 0 20px; 
+  color: #2b371c;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.icon-container a {
+  margin-right: 10px; 
+}
