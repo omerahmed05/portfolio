@@ -4,11 +4,11 @@ import "../styles/Projects.css";
 function Interests() {
 
   return (
-    <div className="projects">
-      <h1 className="projectTitle">Interests</h1> 
-        <div className="description-container">
-          <div className="description">
-            In my free time, I enjoy playing and watching soccer, playing and studying chess, and listening to music. 
+    <div className="project">   
+      <h1>Interests</h1> 
+      <div className="description-container">
+        <div className="description">
+        In my free time, I enjoy playing and watching soccer, playing and studying chess, and listening to music. 
             I also enjoy traveling!
             <br/><br/>
             My favorite soccer clubs are Liverpool F.C. and F.C. Barcelona. 
@@ -39,19 +39,18 @@ function Interests() {
             </div>
 
             <div className="image-container">
-              <img src={require("../assets/turkey3.jpg")} alt="Interest 3" />
-            </div>
-
-            <div className="image-container">
               <img src={require("../assets/turkey4.jpg")} alt="Interest 4" />
             </div>
 
             <br/><br/>
-            <p className="travel-pics">All of these photos were taken in the city of Trabzon!<br/><br/>More travel pics to come 😎</p>
-          </div>
+            <div className="travel-pics">
+              <br/>More travel pics to come 😎
+            </div>
         </div>
       </div>
+    </div>
   );
 }
 
 export default Interests;
+
